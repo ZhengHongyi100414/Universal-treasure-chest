@@ -155,8 +155,10 @@ def clock():
                 turtle.bye()
     num(200)     
     hms(200)
-
+def weather():
+    print('功能开发中，即将开放。')
 while True:
+    
     print('欢迎来到超级百宝箱 1.4.8！')
     print('1·单位换算')
     print('2·常用公式计算')
@@ -164,7 +166,7 @@ while True:
     print('4·货币转换')
     print('5·时钟')
     print('6.天气')
-    print(exit)
+    print('exit')
     temp=input('请选择您需要的服务(1/2/3/4/5/exit)。')
     if temp=='1':
         danwei()
