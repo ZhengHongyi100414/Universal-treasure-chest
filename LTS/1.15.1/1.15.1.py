@@ -258,7 +258,7 @@ while True:
     elif temp=='exit':
         break
     '''
-    temp=gui.choicebox(msg='请选择您需要的服务', title='超级百宝箱 22.1118A', choices=['单位换算','个人所得税计算','货币转换','时钟','天气','IP地址查询','exit'])
+    temp=gui.choicebox(msg='请选择您需要的服务', title='超级百宝箱 1.15.1', choices=['单位换算','个人所得税计算','货币转换','时钟','天气','IP地址查询','exit'])
     print(temp)
     if temp=='单位换算':
         danwei()
